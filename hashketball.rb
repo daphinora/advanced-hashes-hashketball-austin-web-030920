@@ -264,7 +264,6 @@ def player_with_longest_name
           k == :player_name
       longest_player << attributes[:player_name]
     end
-
     end
   end
   end
