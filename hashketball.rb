@@ -253,22 +253,22 @@ end
 
 
 def player_with_longest_name
-  # long_name = 0
-  # longest_player = ""
-  # game_hash.each do |place, team|
-  #   team[:players].each do |attributes, data|
-  #     if long_name < attributes[:player_name].length
-  #       long_name = attributes[:player_name].length
-  #     if long_name == attributes[:player_name].length
-  #     longest_player.delete do |k, v|
-  #       k = attributes[:player_name]
-  #     end
-  #     longest_player << attributes[:player_name]
-  #   end
-  # end
-  # end
-  # end
-  # longest_player
+  long_name = 0
+  longest_player = ""
+  game_hash.each do |place, team|
+    team[:players].each do |attributes, data|
+      if long_name < attributes[:player_name].length
+        long_name = attributes[:player_name].length
+      if long_name == attributes[:player_name].length
+      longest_player.delete do |k, v|
+        k = attributes[:player_name]
+      end
+      longest_player << attributes[:player_name]
+    end
+  end
+  end
+  end
+  longest_player
 end
 
 
