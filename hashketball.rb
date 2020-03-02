@@ -252,7 +252,7 @@ def winning_team
 end
 
 
-def player_with_longest_name(ug)
+def player_with_longest_name(path)
   # long_name = 0
   # longest_player = ""
   # game_hash.each do |place, team|
