@@ -253,7 +253,7 @@ end
 
 
 def player_with_longest_name
-  long_name = 0
+  long_name = 13
   longest_player = ""
   game_hash.each do |place, team|
     team[:players].map do |attributes, data|
