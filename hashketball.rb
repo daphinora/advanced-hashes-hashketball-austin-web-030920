@@ -261,7 +261,7 @@ def player_with_longest_name
         long_name = attributes[:player_name].length
       if long_name == attributes[:player_name].length
       longest_player.delete do |k, v|
-        k = attributes[:player_name]
+        v = attributes[:player_name]
       end
       longest_player << attributes[:player_name]
         end
