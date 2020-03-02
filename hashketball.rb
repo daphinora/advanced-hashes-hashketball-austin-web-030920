@@ -263,8 +263,9 @@ def player_with_longest_name
       longest_player.delete do |key, value|
         key = attributes[:player_name]
       end
+    end
       longest_player << attributes[:player_name]
-        end
+        
       end
     end
   end
