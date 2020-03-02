@@ -260,7 +260,7 @@ def player_with_longest_name
       if long_name < attributes[:player_name].length
         long_name = attributes[:player_name].length
       if long_name == attributes[:player_name].length
-          longest_player.slice(attributes[:player_name])
+      longest_player.slice(attributes[:player_name])
       longest_player << attributes[:player_name]
   
     end
